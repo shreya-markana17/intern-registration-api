@@ -137,3 +137,19 @@ DELETE /interns/:id
 
 Shreya Markana
 
+# Token Minting API
+
+A simple REST API built using Node.js and Express for minting tokens.
+
+## Endpoints
+
+POST /mint
+
+GET /tokens
+
+## Technologies
+
+- Node.js
+- Express.js
+- CORS
+
