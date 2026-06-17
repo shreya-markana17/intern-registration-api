@@ -76,3 +76,64 @@ Response:
   }
 ]
 ```
+# Task Submission API
+
+A simple REST API built using Node.js and Express for submitting and managing tasks.
+
+## Features
+
+* Submit a new task
+* Get all submitted tasks
+* Get a task by ID
+* Delete a task
+
+## Technologies Used
+
+* Node.js
+* Express.js
+* CORS
+
+## Installation
+
+```bash
+npm install
+```
+
+## Run the Project
+
+```bash
+node server.js
+```
+
+## API Endpoints
+
+### Submit Task
+
+POST /register
+
+Request Body:
+
+```json
+{
+  "name": "Shreya",
+  "email": "shreya@gmail.com",
+  "college": "XYZ College"
+}
+```
+
+### Get All Tasks
+
+GET /interns
+
+### Get Task By ID
+
+GET /interns/:id
+
+### Delete Task
+
+DELETE /interns/:id
+
+## Author
+
+Shreya Markana
+
